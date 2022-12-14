@@ -6,14 +6,14 @@
 /*   By: snair <snair@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 13:18:10 by snair             #+#    #+#             */
-/*   Updated: 2022/11/29 13:18:11 by snair            ###   ########.fr       */
+/*   Updated: 2022/12/08 20:45:37 by snair            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
-int main(void) 
+int main(void)
 {
-	Zombie *zh = zombieHorde(5, "Xenu");
-	delete[] zh;
+	Zombie *a = zombieHorde(5, "Xenu");
+	delete[] a;
 }

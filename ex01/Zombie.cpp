@@ -6,7 +6,7 @@
 /*   By: snair <snair@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 13:17:48 by snair             #+#    #+#             */
-/*   Updated: 2022/11/29 13:17:49 by snair            ###   ########.fr       */
+/*   Updated: 2022/12/08 20:46:10 by snair            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ Zombie::~Zombie(void)
 void	Zombie::set_name(std::string name)
 {
 	this->_name = name;
-	std::cout << "Zombie  has been named: " << name << std::endl;
+	std::cout << "Zombie has been named: " << name << std::endl;
 }
 
 //getting the class member _name that is currently set

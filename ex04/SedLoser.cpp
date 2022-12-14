@@ -6,7 +6,7 @@
 /*   By: snair <snair@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 13:13:49 by snair             #+#    #+#             */
-/*   Updated: 2022/11/29 13:15:21 by snair            ###   ########.fr       */
+/*   Updated: 2022/12/14 18:09:32 by snair            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ std::string sed_replace(std::string filename, const std::string s1, const std::s
 	{
 		filename.erase(pos_s1, erase_s1);//erases from pos_s1 position till s2 lenght
 		filename.std::string::insert(pos_s1, s2);//inserts s2 starting from pos_s1
-		pos_s1 = filename.find(s1, pos_s1 + replace_s1);
+		pos_s1 = filename.find(s1, pos_s1 + replace_s1);//finds next occurence of s1
 	}
 	return (filename);
 }

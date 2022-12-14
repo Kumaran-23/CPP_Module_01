@@ -17,7 +17,7 @@ start:
 all: $(NAME)
 
 $(NAME): $(HEADER) $(OBJ)
-	$(CXX) $(CXxFLAGS) $(OBJ) -o $(NAME)
+	$(CXX) $(CXXFLAGS) $(OBJ) -o $(NAME)
 	@echo "$(GREEN)ex00 Done!$(WHITE)"
 
 %.o : %.c $(HEADER)

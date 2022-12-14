@@ -6,7 +6,7 @@
 /*   By: snair <snair@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 13:17:41 by snair             #+#    #+#             */
-/*   Updated: 2022/11/29 13:17:42 by snair            ###   ########.fr       */
+/*   Updated: 2022/12/08 20:44:55 by snair            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,4 @@ class Zombie
 };
 
 Zombie *zombieHorde(int N, std::string name);
-
 #endif
